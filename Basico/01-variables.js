@@ -91,4 +91,40 @@ console.log(iAmDead);
 let test = 6 < 3;
 console.log(test);
 
+//ARREGLOS
+
+//Declarando y henicializando arreglos
+let MyNameArray = ["Ahstell", "Bob", "Jim"];
+let myNumberArray = [10, 20, 50];
+
+//Acediendo a los valores dentro de un arreglo
+MyNameArray[0]; //Deberia de devolver "Ahstell"
+myNumberArray[2]; //Deberia de devolver 50
+
+//OBJETOS
+
+//Cracion de un objeto
+let dog = {name: "Spot", breed: "Dalmatian"};
+
+//Recuperar valores o informacion de un obejto
+dog.name;
+console.log(dog.name);
+
+//TIPADO DINAMICO
+
+let myString = "Hello World";
+let mySeconNumber = "50";
+let myDiferentNumber = "500";
+console.log(typeof myString);
+console.log(typeof mySeconNumber);
+
+//CONSTANTES
+
+const dayInWeek = 7;
+const hoursInDay = 24;
+
+//Funciona igual a let con la diferencia que nos se puede reasignar el valor de una constante
+const daysInWeek = 7;
+//dayInWeek = 8; //Genera un error
+
 

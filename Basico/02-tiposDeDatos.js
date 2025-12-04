@@ -31,3 +31,11 @@ console.log(typeof MiSimbolo);
 console.log(typeof numeroNulo);
 console.log(typeof esUnEstudiante);
 console.log(typeof null);
+
+//Tipado dinamico
+
+let foo = 42; //let ahora es un numero
+foo = "bar"; //foo ahora es string
+foo = true; //foo ahora es booleano
+
+//Esttructuras y tipos de datos
