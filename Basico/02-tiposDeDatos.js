@@ -30,4 +30,4 @@ console.log(typeof nombre);
 console.log(typeof MiSimbolo);
 console.log(typeof numeroNulo);
 console.log(typeof esUnEstudiante);
-console.log(typeof null);
+console.log(typeof null);   
