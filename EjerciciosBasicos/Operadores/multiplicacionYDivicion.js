@@ -18,5 +18,5 @@ rl.question("Ingresa el primer numero: ", (a) => {
         console.log("✅ La division es: ", division);
 
         rl.close();
-    })
-})
+    });
+});2
