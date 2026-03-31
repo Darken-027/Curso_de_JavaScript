@@ -1,0 +1,1 @@
+// Ejercicio 4: Estudiar el comportamiento del alcanse o contexto funcional. 
