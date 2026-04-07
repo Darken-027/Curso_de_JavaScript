@@ -1,0 +1,2 @@
+//objetos literales
+// let persona
