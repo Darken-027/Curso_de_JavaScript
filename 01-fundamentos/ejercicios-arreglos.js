@@ -66,3 +66,67 @@
 // const arr = [1, 2, 3, 4, 5, 6, 7];
 // const n = 3;
 // Resultado esperado: [[1,2,3], [4,5,6], [7]]
+
+
+
+//                                                      SOLUCION                                   //
+
+
+// 1. SUMA DE ELEMENTOS
+// Dado un arreglo de números, retorna la suma total
+// const array1 = [1, 2, 3, 4, 5];
+// Resultado esperado: 15
+
+const array1 = [1, 2, 3, 4, 5];
+
+
+const valorInicial = (0);
+const sumaConValorInicial = array1.reduce(
+    (acumulador, valorActual) => acumulador + valorActual, 
+    valorInicial,
+);
+
+console.log(sumaConValorInicial);
+
+//OTRAS FORMAS DE SUMAR ARREGLOS
+
+//usando reduce mas corto
+const suma = array1.reduce((acc, val) => acc + val, 0);
+console.log(suma);
+
+//usando el ciclo for clasico
+
+let sumaNumero = 0;
+for(let i = 0; i < array1.length; i++){
+    sumaNumero += array1[i];
+}
+console.log(sumaNumero);
+console.log('longitud del arreglo', array1.length);
+
+//usnado for of
+let sumaof = 0;
+for(const number of array1){
+    sumaof += number;
+}
+console.log(sumaof);
+
+//usando forEach
+
+let sumaforEch = 0;
+array1.forEach(num => sumaforEch += num);
+console.log(sumaforEch);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
